@@ -90,8 +90,8 @@ pickleUnload("NotSarcasmDict.pkl",notSarcasmDict)
 '''
 
 #Downloading Models
-SarcasmDict = pickleLoad("sarcasmDict.pkl")
-notSarcasmDict = pickleLoad("NotSarcasmDict.pkl")
+SarcasmDict = pickleLoad("Model/sarcasmDict.pkl")
+notSarcasmDict = pickleLoad("Model/NotSarcasmDict.pkl")
 DictionaryAll = SarcasmDict
 DictionaryAll.update(notSarcasmDict)
 
